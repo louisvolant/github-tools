@@ -207,6 +207,12 @@ github-tools/
 </p>
 ```
 
+## 👤 Author
+
+Created with ❤️ by **Louis Volant**
+- 🌐 [Personal Page](https://www.louisvolant.com)
+- 💼 [Portfolio](https://www.louisvolant.com/portfolio)
+
 ---
 
 ## 📜 License

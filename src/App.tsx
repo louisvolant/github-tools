@@ -142,29 +142,52 @@ ${badgesHtml}
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-900 bg-slate-950 py-4 px-6 text-center text-xs text-slate-500">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>
-            Inspired by{' '}
+      <footer className="border-t border-slate-900 bg-slate-950 py-5 px-6 text-xs text-slate-500">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-wrap items-center gap-2 text-center md:text-left">
+            <span>
+              Inspired by{' '}
+              <a
+                href="https://github.com/GraceyDugar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 hover:underline"
+              >
+                @GraceyDugar
+              </a>{' '}
+              and{' '}
+              <a
+                href="https://github.com/Andrew6rant"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 hover:underline"
+              >
+                @Andrew6rant
+              </a>
+            </span>
+            <span className="text-slate-700 hidden sm:inline">•</span>
+            <span>Cloudflare Pages</span>
+          </div>
+
+          <nav className="flex items-center gap-4 sm:gap-5 font-medium text-slate-400" aria-label="Personal Links">
             <a
-              href="https://github.com/GraceyDugar"
+              href="https://www.louisvolant.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-400 hover:underline"
+              className="hover:text-white transition hover:underline"
             >
-              @GraceyDugar
-            </a>{' '}
-            and{' '}
-            <a
-              href="https://github.com/Andrew6rant"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-400 hover:underline"
-            >
-              @Andrew6rant
+              Personal Page
             </a>
-          </span>
-          <span>Deployable to Cloudflare Pages & Workers</span>
+            <span className="text-slate-700">•</span>
+            <a
+              href="https://www.louisvolant.com/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition hover:underline"
+            >
+              Portfolio
+            </a>
+          </nav>
         </div>
       </footer>
     </div>
