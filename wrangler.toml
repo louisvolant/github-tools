@@ -1,0 +1,8 @@
+# Cloudflare Pages / Workers configuration
+name = "github-ascii-tools"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+keep_vars = true
+
+[vars]
+ENVIRONMENT = "production"
