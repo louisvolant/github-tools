@@ -51,7 +51,7 @@ Inspired by popular GitHub profiles such as [@GraceyDugar](https://github.com/Gr
 
 - **⚡ Cloudflare Ready**:
   - Client-side Single Page Application with 0 external runtime server dependencies.
-  - Pre-configured `wrangler.toml` for Cloudflare Pages deployment with `keep_vars = true` and `pages_build_output_dir = "dist"`.
+  - Pre-configured `wrangler.toml` for Cloudflare Pages deployment with `pages_build_output_dir = "dist"`.
 
 ---
 
@@ -107,7 +107,6 @@ This application is built as a static client-side single-page app and is ready f
    - **Framework preset**: Vite
    - **Build command**: `npm run build`
    - **Build output directory**: `dist`
-3. Environment variables will be preserved thanks to `keep_vars = true`.
 
 ### Using Wrangler CLI
 ```bash
@@ -120,7 +119,6 @@ npx wrangler pages deploy dist --project-name=github-ascii-tools
 name = "github-ascii-tools"
 compatibility_date = "2024-09-23"
 pages_build_output_dir = "dist"
-keep_vars = true
 
 [vars]
 ENVIRONMENT = "production"
